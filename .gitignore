@@ -1,0 +1,25 @@
+# Ignore Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore development environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore IDE and editor specific files
+/.idea
+/.vscode
+
+# Ignore miscellaneous files
+Thumbs.db
+.cache
+*.log*
+*.bak
+*.csv
+*.pdf
